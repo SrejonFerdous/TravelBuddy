@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    tools:context=".otp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_130sdp"
+        android:id="@+id/otp_iv1"
+        android:src="@drawable/pin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:elevation="@dimen/_25sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter Verification Code"
+        android:textSize="@dimen/_23sdp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font1"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="We sent you a one-time password to the following number :"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font1"
+        android:textStyle="bold"
+        android:id="@+id/otp_tv1"
+        />
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ProgressBar
+           android:id="@+id/otp_pb1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:indeterminateTint="@color/app_color"
+           android:max="100"
+           android:progress="50"
+           android:visibility="gone"
+           />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="@dimen/_20sdp"
+           android:id="@+id/otp_ll1"
+           android:gravity="center_horizontal"
+           >
+           <EditText
+               android:id="@+id/otp_et1"
+               android:layout_width="@dimen/_40sdp"
+               android:layout_height="@dimen/_46sdp"
+               android:layout_marginHorizontal="@dimen/_3sdp"
+               android:gravity="center"
+               android:background="@drawable/edittext_bg2"
+               android:inputType="number"
+               android:maxLength="1"
+               />
+           <EditText
+               android:id="@+id/otp_et2"
+               android:layout_width="@dimen/_40sdp"
+               android:layout_height="@dimen/_46sdp"
+               android:layout_marginHorizontal="@dimen/_3sdp"
+               android:background="@drawable/edittext_bg2"
+               android:inputType="number"
+               android:maxLength="1"
+               android:gravity="center"
+               />
+           <EditText
+               android:id="@+id/otp_et3"
+               android:layout_width="@dimen/_40sdp"
+               android:layout_height="@dimen/_46sdp"
+               android:layout_marginHorizontal="@dimen/_3sdp"
+               android:background="@drawable/edittext_bg2"
+               android:gravity="center"
+               android:maxLength="1"
+               android:inputType="number"
+               />
+           <EditText
+               android:id="@+id/otp_et4"
+               android:layout_width="@dimen/_40sdp"
+               android:layout_height="@dimen/_46sdp"
+               android:layout_marginHorizontal="@dimen/_3sdp"
+               android:gravity="center"
+               android:textColor="@color/black"
+               android:fontFamily="@font/font1"
+               android:background="@drawable/edittext_bg2"
+               android:maxLength="1"
+               android:inputType="number"
+               />
+           <EditText
+               android:id="@+id/otp_et5"
+               android:layout_width="@dimen/_40sdp"
+               android:layout_height="@dimen/_46sdp"
+               android:layout_marginHorizontal="@dimen/_3sdp"
+               android:gravity="center"
+               android:textColor="@color/black"
+               android:fontFamily="@font/font1"
+               android:background="@drawable/edittext_bg2"
+               android:maxLength="1"
+               android:inputType="number"
+               />
+           <EditText
+               android:id="@+id/otp_et6"
+               android:layout_width="@dimen/_40sdp"
+               android:layout_height="@dimen/_46sdp"
+               android:layout_marginHorizontal="@dimen/_3sdp"
+               android:gravity="center"
+               android:textColor="@color/black"
+               android:fontFamily="@font/font1"
+               android:background="@drawable/edittext_bg2"
+               android:maxLength="1"
+               android:inputType="number"
+               />
+
+       </LinearLayout>
+   </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Didn't get OTP ?"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/otp_resendOtp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font1"
+            android:text="Resend Otp"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_33sdp"
+        android:padding="@dimen/_10sdp"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/otp_b1"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:textStyle="bold"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b2"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b3"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b4"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="1"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b5"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:textStyle="bold"
+            android:fontFamily="@font/font1"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b6"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:textStyle="bold"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b7"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:textStyle="bold"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b8"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b9"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:textStyle="bold"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_b0"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:backgroundTint="#1E4595" />
+
+        <Button
+            android:id="@+id/otp_bcross"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/numpad_button_bg"
+            android:fontFamily="@font/font1"
+            app:backgroundTint="#1E4595"
+            app:icon="@drawable/ic_backspace"
+            app:iconSize="@dimen/_22sdp"
+            app:iconTint="@color/black" />
+    </GridLayout>
+
+</LinearLayout>

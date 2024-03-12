@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".app_main">
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/app_main_bottomNevigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorColor="@color/another_app_color"
+        app:abb_indicatorHeight="@dimen/_4sdp"
+        app:abb_indicatorMargin="@dimen/_16sdp"
+        app:abb_selectedIndex="0"
+        app:abb_selectedTabType="text"
+        app:abb_tabAnimation="fade"
+        app:abb_tabAnimationSelected="slide"
+        app:abb_tabColor="@color/another_app_color"
+        app:abb_tabColorSelected="@color/another_app_color"
+        app:abb_tabs="@menu/main_app_menu" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/app_main_bottomNevigationView"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/menu_nevigation" />
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable-v24/round_back_dark_blue5_15.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable-v24/round_back_primary_15.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/app_icon_bg.xml" value="0.3828125" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/bookiing_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/booking_selector.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/bottom_nev_icon_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/bottom_nev_icon_selector_night_mode.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/bottom_nev_text_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/bottom_nev_text_selector_night_mode.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_bg.xml" value="0.3828125" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_bg2.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_bg3.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_bg4.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_bg5.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_bg_2.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/button_text_color.xml" value="0.19144144144144143" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/custom_progress_bar.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/edittext_bg.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/edittext_bg2.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/fav_selector.xml" value="0.21621621621621623" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/favourites_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/home_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_ac.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_add_box.xml" value="0.3828125" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_attractions.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_backspace.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_bed.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_book.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_booking_focused.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_car.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_favorite.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_favorite_border.xml" value="0.21621621621621623" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_favorite_focused.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_favourite_filled.xml" value="0.21621621621621623" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_home.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_home_focused.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_icons8_male_user_24.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_longin.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_manager.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_mountain.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_parking.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_pets.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_pool.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_question.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_search.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_search_focused.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_settings.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_spa.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_support.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_user.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_user_focused.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ic_wifi.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/image_view_bg.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/login_bg.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/login_cred_bg.xml" value="0.3828125" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/login_creds_bg.xml" value="0.24791666666666667" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/login_text_color.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/numpad_button_bg.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/otp_edittext_bg.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/outlined_box_bg.xml" value="0.21621621621621623" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/profile_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/progress_drawable.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ripple_effect.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ripple_effect_2.xml" value="0.20225225225225224" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ripple_effect_3.xml" value="0.22702702702702704" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/ripple_effect_4.xml" value="0.22702702702702704" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/round_back_dark_blue5_15.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/search_selector.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/show_pass.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/signup_with_bg.xml" value="0.21441441441441442" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/signup_with_facebook_bg.xml" value="0.3310810810810811" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/tab_background.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/tab_background_selector.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/tab_indicatior.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/tab_selected_background.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/drawable/tab_text_selector.xml" value="0.2418918918918919" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_admin_login.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_app_main.xml" value="0.25" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_home.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_login_credentials.xml" value="0.25" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_org_app_main.xml" value="0.22792792792792793" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_org_signup.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_organization_login.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_organizational_login.xml" value="0.20045045045045046" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_otp.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/car_rent_layout.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/child_age_layout.xml" value="0.20225225225225224" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/content_organization_login.xml" value="0.21576576576576575" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_active.xml" value="0.30495495495495495" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_bookings.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_canceled.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_car_rental.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_favourites.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_first.xml" value="0.20520833333333333" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_home2.xml" value="0.22792792792792793" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_org_add_car.xml" value="0.23072916666666668" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_org_add_post.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_org_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_org_profile.xml" value="0.24635416666666668" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_past.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_post.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_search.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_search_loc.xml" value="0.22792792792792793" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_search_loc2.xml" value="0.18828828828828828" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_second.xml" value="0.2635416666666667" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/fragment_stays.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/google_progress_bar.xml" value="0.21306306306306305" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/guest_layout.xml" value="0.25" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/progress_bar.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/recycler_item.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/layout/tab_tittle.xml" value="0.22792792792792793" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/menu/bottom_nevigation_menu.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/menu/home_menu.xml" value="0.3171171171171171" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/menu/main_app_menu.xml" value="0.22792792792792793" />
+        <entry key="..\:/Random Projects/TravelBuddy/app/src/main/res/menu/org_menu.xml" value="0.2635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3171171171171171" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

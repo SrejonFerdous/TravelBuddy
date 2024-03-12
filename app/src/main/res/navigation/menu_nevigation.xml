@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_nevigation"
+    app:startDestination="@id/home2">
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.travelbuddy.home"
+        android:label="home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_home2_to_favourites"
+            app:destination="@id/favourites" />
+        <action
+            android:id="@+id/action_home2_to_bookings"
+            app:destination="@id/bookings" />
+        <action
+            android:id="@+id/action_home2_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.travelbuddy.search"
+        android:label="search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/favourites"
+        android:name="com.example.travelbuddy.favourites"
+        android:label="favourites"
+        tools:layout="@layout/fragment_favourites" >
+        <action
+            android:id="@+id/action_favourites_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookings"
+        android:name="com.example.travelbuddy.bookings"
+        android:label="bookings"
+        tools:layout="@layout/fragment_bookings" >
+        <action
+            android:id="@+id/action_bookings_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.travelbuddy.profile"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+
+</navigation>

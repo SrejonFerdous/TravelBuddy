@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/org_menu_fragment"
+    app:startDestination="@id/org_home2">
+    <fragment
+        android:id="@+id/org_home2"
+        android:name="com.example.travelbuddy.org_home"
+        android:label="org_home"
+        tools:layout="@layout/fragment_org_home" >
+        <action
+            android:id="@+id/action_org_home2_to_org_add_post"
+            app:destination="@id/org_add_post" />
+    </fragment>
+    <fragment
+        android:id="@+id/org_add_post"
+        android:name="com.example.travelbuddy.org_add_post"
+        android:label="org_add_post"
+        tools:layout="@layout/fragment_org_add_post" >
+        <action
+            android:id="@+id/action_org_add_post_to_org_add_car2"
+            app:destination="@id/org_add_car2" />
+    </fragment>
+    <fragment
+        android:id="@+id/org_profile"
+        android:name="com.example.travelbuddy.org_profile"
+        android:label="org_profile"
+        tools:layout="@layout/fragment_org_profile" >
+        <action
+            android:id="@+id/action_org_profile_to_org_home2"
+            app:destination="@id/org_home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/org_add_car2"
+        android:name="com.example.travelbuddy.org_add_car"
+        android:label="org_add_car"
+        tools:layout="@layout/fragment_org_add_car" >
+        <action
+            android:id="@+id/action_org_add_car2_to_org_profile"
+            app:destination="@id/org_profile" />
+    </fragment>
+</navigation>

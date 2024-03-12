@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+    <color name="semi_transparent_black_edited">#4B000000</color>
+    <color name="semi_transparent_black">#7F000000</color>
+    <color name="fully_transparent_black">#FF000000</color>
+    <color name="another_transparent">#3fff</color>
+    <color name="shade_of_grey">#9AA6A6</color>
+    <color name="dark_shade_teal">#04716A</color>
+    <color name="colorAccent">#60ebe1</color>
+    <color name="colorPrimary">#283593</color>
+    <color name="app_color">#233DFF</color>
+    <color name="light_ash">#AEB1B0</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="button_color">#1E4595</color>
+    <color name="transparent_color_buttons">#0D174188</color>
+    <color name="another_app_color">#003B95</color>
+</resources>
